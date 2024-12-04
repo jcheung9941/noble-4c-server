@@ -14,6 +14,6 @@ const mcuSchema = new mongoose.Schema({
   },
 });
 
-const Mcu = mongoose.model("Mcu", mcuSchema);
+const Mcu = mongoose.model("debuts", mcuSchema);
 
 module.exports = Mcu;
