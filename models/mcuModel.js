@@ -6,10 +6,10 @@ const mcuSchema = new mongoose.Schema({
     unique: true,
     required: true,
   },
-  debut: {
+  film: {
     type: String,
   },
-  debutYear: {
+  year: {
     type: Number,
   },
 });
